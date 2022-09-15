@@ -8,7 +8,7 @@
 
 #### Data type and description for each attribute in my data -
 
-##### column_a                          integer       The number of the entry
+##### column_a          -                integer   -    The number of the entry
 ##### incident_number                   integer       Incident Report Number
 ##### highest_offense_description       string        Description of the offense committed
 ##### highest_offense_code              integer       The code of the offense that was committed
