@@ -11,16 +11,16 @@
 ##### column_a          -                integer   -    The number of the entry
 ##### incident_number         -          integer   -    Incident Report Number
 ##### highest_offense_description   -    string    -    Description of the offense committed
-##### highest_offense_code      -        integer   -    The code of the offense that was committed
-##### family_violence         -          string    -    Incident involves family violence? Y = yes, N = no
+##### highest_offense_code      -        string   -    The code of the offense that was committed
+##### family_violence         -          bool      -    Incident involves family violence? Y = yes, N = no
 ##### occurred_date           -          date     -     Date the incident occurred
 ##### location_type           -          string    -    General description of the premise where the incident occurred
 ##### address            -               string   -     Incident location
-##### zip_code             -             decimal   -    Zip code where incident occurred
-##### council_district        -          decimal   -    Austin city council district where the incident occurred
+##### zip_code             -             string   -    Zip code where incident occurred
+##### council_district        -          string   -    Austin city council district where the incident occurred
 ##### apd_sector           -             string    -    APD sector where incident occurred
 ##### apd_district         -             string    -    APD district where incident occurred
-##### pra               -                integer   -    APD police reporting area where incident occurred
+##### pra               -                string   -    APD police reporting area where incident occurred
 ##### clearance_status        -          string    -    How/whether crime was solved (see clearance lookup)
 ##### clearance_date          -          date    -      Date crime was solved
 ##### category_description      -        string    -    Description for the most serious crimes identified by the FBI as part of its Uniform Crime Reporting program
